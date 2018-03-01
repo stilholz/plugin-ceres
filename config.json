@@ -4,14 +4,14 @@
         "key"       : "header.company_name",
         "label"     : "Name of your store",
         "type"      : "text",
-        "default"   : "Ceres Webshop"
+        "default"   : "Stilholz-Pioch"
     },
     {
         "tab"       : "Global",
         "key"       : "header.company_logo",
         "label"     : "URL to your company logo",
         "type"      : "text",
-        "default"   : "images/ceres-logo.svg"
+        "default"   : "images/gallery/Stilholz/FINLOGO_VEC_250x80.png"
     },
     {
         "tab"       : "Global",
@@ -39,7 +39,7 @@
         "key"                         : "contact.shop_mail",
         "label"                       : "Contact form email address",
         "type"                        : "text",
-        "default"                     : "your@email.com"
+        "default"                     : "info@stilholz-pioch.de"
     },
     {
         "tab"                         : "Global",
@@ -76,7 +76,7 @@
             "timezone"                  : "Time zone",
             "opening_times"             : "Opening hours"
         },
-        "default"                     : "street, zip, city, hotline, email, opening_times"
+        "default"                     : "name, street, zip, city, hotline, email, fon"
     },
     {
       "tab"     : "Global",
@@ -357,28 +357,28 @@
         "key"       : "footer.col_1_title",
         "label"     : "Title of first column",
         "type"      : "text",
-        "default"   : "Shop"
+        "default"   : "Rechtliches"
     },
     {
         "tab"       : "Footer",
         "key"       : "footer.col_1_categories",
         "label"     : "List of IDs of categories to display in first column",
         "type"      : "text",
-        "default"   : ""
+        "default"   : "412,416,421,410"
     },
     {
         "tab"       : "Footer",
         "key"       : "footer.col_2_title",
         "label"     : "Title of second column",
         "type"      : "text",
-        "default"   : "My account"
+        "default"   : "Über uns"
     },
     {
         "tab"       : "Footer",
         "key"       : "footer.col_2_categories",
         "label"     : "List of IDs of categories to display in second column",
         "type"      : "text",
-        "default"   : ""
+        "default"   : "422,411"
     },
     {
         "tab"       : "Footer",
@@ -459,7 +459,7 @@
             "item.weightG"              : "Gross weight",
             "item.variationBase_content": "Content"
         },
-        "default"                       : "all"
+        "default"                       : "item.producerCountry, item.id, item.technical_data, item.description, item.shortDescription, item.recommendedPrice, item.variation_name, item.external_id, item.variation_model, item.variation_dimensions, item.customs_tariff_number, item.weightNetG, item.weightG, Gross weight, item.variationBase_content"
     },
     {
         "tab"           : "Item view",
@@ -588,7 +588,7 @@
         "key"               : "item.lists.1.de.list_name",
         "label"             : "Name of the first item list (DE)",
         "type"              : "text",
-        "default"           : "DE name"
+        "default"           : "Zu letzt gesehene Artikel"
     },
     {
         "tab"               : "Item lists",
@@ -702,7 +702,7 @@
             "basket.order_total_gross"      : "Total (Gross)",
             "basket.order_total_net"        : "Total (Net)"
         },
-        "default"                           : "basket.value_of_items_gross, basket.value_of_items_net, basket.shipping_costs_gross, basket.shipping_costs_net, basket.vat, basket.order_total_gross, basket.order_total_net"
+        "default"                           : "basket.value_of_items_gross, basket.shipping_costs_gross, basket.vat, basket.order_total_gross, basket.order_total_net"
     },
     {
         "tab"                               : "Shopping cart",
@@ -752,21 +752,21 @@
             "bottom"          : "Bottom",
             "top_bottom"      : "Top and bottom"
         },
-        "default"           : "top"
+        "default"           : "bottom"
     },
     {
         "tab"               : "Pagination and sorting",
         "key"               : "pagination.showFirstPage",
         "label"             : "Always show first page",
         "type"              : "checkbox",
-        "default"           : "false"
+        "default"           : "true"
     },
     {
         "tab"               : "Pagination and sorting",
         "key"               : "pagination.showLastPage",
         "label"             : "Always show last page",
         "type"              : "checkbox",
-        "default"           : "false"
+        "default"           : "true"
     },
     {
         "tab"           : "Pagination and sorting",
@@ -1324,14 +1324,14 @@
             "name"  :   "ISO code",
             "symbol":   "Symbol"
         },
-        "default"   : "name"
+        "default"   : "symbol"
     },
     {
         "tab"   : "Currencies",
         "key"   : "currency.enable_selection",
         "label" : "Allow customer to change the currency",
         "type"  : "checkbox",
-        "default": "true"
+        "default": "false"
     },
     {
         "tab"   : "Currencies",
@@ -1344,7 +1344,7 @@
                       "symbol":   "Symbol",
                       "all"   :   "ISO code and symbol"
                   },
-        "default"   : "all"
+        "default"   : "symbol"
     },
     {
         "tab"   : "Currencies",
@@ -1392,7 +1392,7 @@
             "XCD" : "XCD (Eastern Caribbean dollar)",
             "ZAR" : "ZAR (South African rand)"
         },
-        "default" : "all"
+        "default" : "EUR"
     },
     {
         "tab"                         : "SEO",
@@ -1436,7 +1436,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
@@ -1465,7 +1465,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
@@ -1494,7 +1494,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
@@ -1523,7 +1523,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
@@ -1552,7 +1552,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
@@ -1581,7 +1581,7 @@
           "noindex"                   : "noindex",
           "noindex, nofollow"          : "noindex, nofollow"
         },
-        "default"                     : "all"
+        "default"                     : "noindex, nofollow"
     },
     {
         "tab"       : "SEO",
